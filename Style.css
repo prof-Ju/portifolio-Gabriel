@@ -1,6 +1,7 @@
 hmtl, body{
     margin: 0;
     padding: 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 #profile {
@@ -10,8 +11,7 @@ hmtl, body{
 }
 
 header {
-background-image: url("https://linktoleaders.com/wp-content/uploads/2019/09/maxresdefault.jpg");
-    
+    background-color:black;
     color: white;
     padding: 0;
     display:flex;
@@ -28,6 +28,25 @@ header h1 {
     margin: 0;
     margin-bottom: 10px;
 }
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: #4a96d9;
+    width: 350px;
+    height: 50px;
+}
+
+header a:hover{
+    background-color: #0b599e;
+    color: rgb(0, 0, 0);
+}
+
+header h1:hover{
+    color:  #4a96d9;
+}
+
 .destaque{
     display: flex;
     justify-content: center;
@@ -37,6 +56,7 @@ header h1 {
 }
 .destaque-bio h3{
     margin: 0;
+    font-weight: 300;
 
 }
 .destaque-bio {
